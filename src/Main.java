@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String apiKey = "ea7a46ab83d40153ec9dbf62"; // Reemplazala con la tuya  si es necesario
+        String apiKey = ""; // Reemplazala con la tuya  si es necesario
 
         String menu = """
                 *******************************************
