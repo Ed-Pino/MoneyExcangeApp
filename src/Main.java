@@ -7,8 +7,12 @@ public class Main {
         String apiKey = "ea7a46ab83d40153ec9dbf62"; // Reemplazala con la tuya  si es necesario
 
         String menu = """
-                Sea bienvenido al conversor de moneda:
-
+                *******************************************
+                
+                🌎 Bienvenido al Conversor de Moneda:
+                
+                     Quieres convertir❔
+                     
                 1) Dólar => Peso Argentino
                 2) Peso Argentino => Dólar
                 3) Dólar => Real Brasileño
@@ -21,11 +25,11 @@ public class Main {
         int opcion = 0;
         while (opcion != 7) {
             System.out.println(menu);
-            System.out.print("Elija una opción: ");
+            System.out.print("Elija una opción validad!: ");
             try {
                 opcion = Integer.parseInt(scanner.nextLine());
                 if (opcion >= 1 && opcion <= 6) {
-                    System.out.print("Ingrese el valor a convertir: ");
+                    System.out.print(" 🤑 Ingrese el valor a convertir: ");
                     double cantidad = Double.parseDouble(scanner.nextLine());
                     String from = "", to = "";
 
@@ -56,6 +60,6 @@ public class Main {
                 System.out.println("Entrada inválida. Intente de nuevo.");
             }
         }
-        System.out.println("Gracias por usar el conversor.");
+        System.out.println("Gracias por usar el conversor de moneda 🌎.");
     }
 }

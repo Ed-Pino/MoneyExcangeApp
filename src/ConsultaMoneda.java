@@ -36,7 +36,7 @@ public class ConsultaMoneda {
                 if (jsonResponse.conversion_rates().containsKey(currency)) {
                     return jsonResponse.conversion_rates().get(currency).toString();
                 } else {
-                    System.err.println("Moneda no encontrada: " + currency);
+                    System.err.println(" 🧐 Moneda no encontrada: " + currency);
                     return null;
                 }
             } else {

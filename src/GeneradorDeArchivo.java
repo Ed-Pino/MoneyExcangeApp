@@ -1,4 +1,3 @@
-package util;
 import modelo.Moneda;
 import com.google.gson.Gson;
 import java.io.FileWriter;
