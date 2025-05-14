@@ -9,9 +9,9 @@ public class Main {
         String menu = """
                 *******************************************
                 
-                🌎 Bienvenido al Conversor de Moneda:
+                🌎 Bienvenido al Conversor de Divisas:
                 
-                     Quieres convertir❔
+                     Que Divisa Quieres convertir hoy ❔
                      
                 1) Dólar => Peso Argentino
                 2) Peso Argentino => Dólar
