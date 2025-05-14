@@ -29,5 +29,5 @@ A Java-based command-line tool to convert currencies using real-time exchange ra
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/currency-converter-cli.git
+git clone git@github.com:Ed-Pino/MoneyExcangeApp.git
 cd currency-converter-cli
